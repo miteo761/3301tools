@@ -18,7 +18,7 @@ def null_cipher(t, s):
 # **XX
 
 
-sentence = "FNM  YGDAEH  APXYH  EOEAOE  TNGEA  LITTHF  MACE DC  TROEGEANAEBUEBU  THFOE  GSOE  IP  OEXSB  WJBYMUEA"
+text = "FNM  YGDAEH  APXYH  EOEAOE  TNGEA  LITTHF  MACE DC  TROEGEANAEBUEBU  THFOE  GSOE  IP  OEXSB  WJBYMUEA"
 sequence = [0, 1, 4, 10, 11, 12, 13, 16, 22, 23, 24, 25, 28, 34, 35, 36, 37, 40]
 
-print(null_cipher(sentence, sequence))
+print(null_cipher(text, sequence))
