@@ -1,5 +1,4 @@
-# As explained in; 'Formulas and Polynomials which Generate Primes and Fermat Pseudoprimes' p1, s13
-
+# As explained in; 'Formulas and Polynomials which Generate Primes and Fermat Pseudoprimes' page 25
 
 def is_prime(n):
     if n & 1 == 0:
