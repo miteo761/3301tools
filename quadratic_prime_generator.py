@@ -1,10 +1,6 @@
 # As explained in; Formulas and Polynomials which Generate Primes and Fermat Pseudoprimes, page 102
 
 
-def reverse(n):
-    return int(str(n)[::-1])
-
-
 def is_prime(n):
     if n & 1 == 0:
         return 2
