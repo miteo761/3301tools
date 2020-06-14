@@ -34,6 +34,4 @@ def search_quadratic(n):
     return x
 
 
-n = 30
-
-print(search_quadratic(n))
+print(search_quadratic(30))
